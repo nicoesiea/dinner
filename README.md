@@ -8,7 +8,7 @@ Invitez vos amis à manger MAIS
 
 
 AMIS
-------
+======
 Une personne se caracterise par :
 - un identifiant
 - une ou des photos
@@ -18,7 +18,7 @@ Une personne se caracterise par :
 
 
 RECETTE
-------
+======
 Une recette se caracterise par :
 - un identifiant
 - une ou des photos
@@ -27,7 +27,7 @@ Une recette se caracterise par :
 
 
 REPAS
-------
+======
 Une repas se caracterise par :
 - un identifiant
 - une liste de recettes
