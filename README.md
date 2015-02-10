@@ -46,4 +46,11 @@ Une repas se caracterise par :
 L'APPLICATION
 ======
 L'idée vient d'un monsieur génial du sud ouest de la France - cet homme est un fin gourmet au grand coeur qui partage sa passion avec ses amis - il sera notre utilisateur number1
+
 Par contre l'utilisateur number1 n'est pas souvent en face d'un ordinateur - un brin plus devant son iPad ou son Galaxy Notes... De fait notre application devra être à la fois disponible sur PC, sur mobile et sur tablette. D'où l'utilisation d'un design responsive via Bootstrap (http://getbootstrap.com/)
+
+De fait, l'utilisateur number1 ne voudra pas passer énormément de temps à configurer l'application. Aussi plusieurs idées me sont venues :
+- Identification via Gmail et/ou Facebook et/ou Apple
+- Récupération des contacts Gmail et/ou Facebook et/ou Apple
+- Ajout des recettes de cuisine simplifié (via copier/coller avec extraction des mot clé par selection à la sourie, ou import via des sites de référence...)
+- Intéraction avec les outils d'agenda GCalendar / Facebook Event / iAgenda...
