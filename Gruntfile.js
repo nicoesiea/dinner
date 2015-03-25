@@ -13,21 +13,21 @@ module.exports = function(grunt) {
         },
 		concat: {
 			css: {
-				src: 'src/css/*/*.css',
-				dest: 'src/css/concat.css'
+				src: 'css/*/*.css',
+				dest: 'css/concat.css'
 			}
 		},
 		// Minification CSS
 		cssmin: {
 			css:{
-				src: 'src/css/concat.css',
+				src: 'css/concat.css',
 				dest: 'src/lib/css/app.min.css'
 			}
 		},
 		// Minification JS
 		uglify: {
 			dist: {
-				src: ['src/js/*/*.js'],
+				src: ['js/*/*.js'],
 				dest: 'src/lib/js/app.min.js'
 			}
 		},
@@ -37,11 +37,11 @@ module.exports = function(grunt) {
                 tasks: ['nodeunit']
             },
 			css: {
-                files: ['src/css/*/*.css'],
+                files: ['css/*/*.css'],
                 tasks: ['concat:css', 'cssmin']
             },
 			js: {
-                files: ['src/js/*/*.js'],
+                files: ['js/*/*.js'],
                 tasks: ['uglify']
             }
         }
