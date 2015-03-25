@@ -3,7 +3,5 @@ $ cat .gitignore
 *~
 # ignorer tous les fichiers dans le répertoire node_modules
 src/lib
-css/
-js/
 node_modules/
 
