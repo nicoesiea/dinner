@@ -1,23 +1,30 @@
-Description de mon application myDinner
+Description de l'application myDinner
 ======
 
-Invitez vos amis à manger MAIS
-- Pas tous en même temps 
-- Pas deux fois la même chose dans les assiettes
-- Ne reproduissez pas les même erreurs !
-- Souvenez vous des ingrédients à éviter pour telle ou telle personne
+MyDinner est une application web pour organiser vos invitations.
+- Retrouvez vos amis via vos comptes en ligne (Gmail, facebook, Apple)
+- Envoyez vos invitation directement dans l'agenda connecté de vos amis
+- Mémoriser vos recettes et apportez leur votre touche personnelle
+- Gardez à l'esprit les préférences et intolérences de chaque personne 
+- Proposer à chaque invitation une nouvelle recette pour éblouir vos amis
 
-
-AMIS
+UTILISATEUR
 ======
-Une personne se caracterise par :
+Chaque utilisateur est identifié dès l'arrivée sur l'application.
+Soit en créant un compte dédié à l'application myDinner, soit via l'authentification d'un système partenaire (Gmail, Facebook, Apple).
+La base de donnée est unique, elle est partagée pour tous les utilisateurs mais le contenue de chaque personne est strictement réservé à celle-ci.
+
+AMI
+======
+Un ami est une personne qui se caracterise par :
 - un identifiant
-- une ou des photos
-- son nom
-- son prenom
-- son commentaire
+- une photo
+- un nom
+- un prenom
+- un commentaire
 - une liste d'ingrédients IN
 - une liste d'ingrédients OUT
+Les personnes sont créées via l'application ou via une récupération d'un système tiers (Gmail, Facebook ou Apple).
 
 RECETTE
 ======
@@ -25,8 +32,12 @@ Une recette se caracterise par :
 - un identifiant
 - une ou des photos
 - un nom
-- une liste d'ingréedients BASIQUE
-- une liste d'ingrédients EXTRA
+- un commentaire
+- un nombre de personne (information pour le dosage, par défaut 1)
+- un temps de préparation post cuisson (en minute)
+- un temps de cuisson (en minute)
+- une liste d'ingrédients BASIQUE / quantité / Unité
+- une liste d'ingrédients EXTRA / quantité / Unité
 
 INGREDIENT
 ======
@@ -34,14 +45,18 @@ Un ingrédient se caracterise par :
 - un identifiant
 - un nom
 - un commentaire
+- une liste d'ingredient de substitution
 
 REPAS
 ======
 Une repas se caracterise par :
 - un identifiant
-- une liste de recettes
+- une date
+- une localisation (un libellé)
+- un commentaire
+- une ou des photos
+- une liste de recette/personne/note
 - une liste de personne
-- une liste de note/personne/recette
 
 L'APPLICATION
 ======
