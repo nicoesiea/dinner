@@ -1,4 +1,4 @@
-Dinner
+Description de mon application myDinner
 ======
 
 Invitez vos amis à manger MAIS
