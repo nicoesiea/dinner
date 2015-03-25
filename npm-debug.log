@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt-appolo-jshint/',
+1 verbose cli   '--save-devO' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'grunt-appolo-jshint/', null ]
+7 verbose cache add name=undefined spec="grunt-appolo-jshint/" args=["grunt-appolo-jshint/",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'grunt-appolo-jshint/',
+8 verbose parsed url   path: 'grunt-appolo-jshint/',
+8 verbose parsed url   href: 'grunt-appolo-jshint/' }
+9 silly lockFile eaa8f313-grunt-appolo-jshint grunt-appolo-jshint/
+10 verbose lock grunt-appolo-jshint/ C:\Users\Nicolas\AppData\Roaming\npm-cache\eaa8f313-grunt-appolo-jshint.lock
+11 info maybeGithub Attempting grunt-appolo-jshint/ from git://github.com/grunt-appolo-jshint/
+12 silly lockFile fed50249-t-github-com-grunt-appolo-jshint git://github.com/grunt-appolo-jshint/
+13 verbose lock git://github.com/grunt-appolo-jshint/ C:\Users\Nicolas\AppData\Roaming\npm-cache\fed50249-t-github-com-grunt-appolo-jshint.lock
+14 verbose addRemoteGit [ 'git://github.com/grunt-appolo-jshint/', 'master' ]
+15 verbose git clone git://github.com/grunt-appolo-jshint/ Cloning into bare repository 'C:\Users\Nicolas\AppData\Roaming\npm-cache\_git-remotes\git-github-com-grunt-appolo-jshint--fed50249'...
+15 verbose git clone git://github.com/grunt-appolo-jshint/ fatal: remote error:
+15 verbose git clone git://github.com/grunt-appolo-jshint/   Repository not found.
+16 silly lockFile fed50249-t-github-com-grunt-appolo-jshint git://github.com/grunt-appolo-jshint/
+17 silly lockFile fed50249-t-github-com-grunt-appolo-jshint git://github.com/grunt-appolo-jshint/
+18 info maybeGithub Attempting grunt-appolo-jshint/ from git+ssh://git@github.com:grunt-appolo-jshint/
+19 silly lockFile 6dd09394-t-github-com-grunt-appolo-jshint git@github.com:grunt-appolo-jshint/
+20 verbose lock git@github.com:grunt-appolo-jshint/ C:\Users\Nicolas\AppData\Roaming\npm-cache\6dd09394-t-github-com-grunt-appolo-jshint.lock
+21 verbose addRemoteGit [ 'git@github.com:grunt-appolo-jshint/', 'master' ]
+22 error git clone git@github.com:grunt-appolo-jshint/ Cloning into bare repository 'C:\Users\Nicolas\AppData\Roaming\npm-cache\_git-remotes\git-github-com-grunt-appolo-jshint--6dd09394'...
+22 error git clone git@github.com:grunt-appolo-jshint/ Permission denied (publickey).
+22 error git clone git@github.com:grunt-appolo-jshint/ fatal: Could not read from remote repository.
+22 error git clone git@github.com:grunt-appolo-jshint/
+22 error git clone git@github.com:grunt-appolo-jshint/ Please make sure you have the correct access rights
+22 error git clone git@github.com:grunt-appolo-jshint/ and the repository exists.
+23 silly lockFile 6dd09394-t-github-com-grunt-appolo-jshint git@github.com:grunt-appolo-jshint/
+24 silly lockFile 6dd09394-t-github-com-grunt-appolo-jshint git@github.com:grunt-appolo-jshint/
+25 silly lockFile eaa8f313-grunt-appolo-jshint grunt-appolo-jshint/
+26 silly lockFile eaa8f313-grunt-appolo-jshint grunt-appolo-jshint/
+27 error addLocal Could not install grunt-appolo-jshint/
+28 error Error: ENOENT, stat 'C:\Users\Nicolas\Documents\GitHub\dinner\grunt-appolo-jshint'
+29 error If you need help, you may report this *entire* log,
+29 error including the npm and node versions, at:
+29 error     <http://github.com/npm/npm/issues>
+30 error System Windows_NT 6.1.7601
+31 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt-appolo-jshint/" "--save-devO"
+32 error cwd C:\Users\Nicolas\Documents\GitHub\dinner
+33 error node -v v0.10.35
+34 error npm -v 1.4.28
+35 error path C:\Users\Nicolas\Documents\GitHub\dinner\grunt-appolo-jshint
+36 error code ENOENT
+37 error errno 34
+38 verbose exit [ 34, true ]

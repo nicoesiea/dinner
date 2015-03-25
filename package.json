@@ -1,0 +1,49 @@
+{
+  "name": "dinner",
+  "version": "1.0.0",
+  "description": "Organiser vos recettes de cuisine, souvenez vous des préférences devos amis ainsi que de leurs intolérances et enfin, plannifier vos repas et inviter vos amis à vous rejoindre",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicoesiea/dinner.git"
+  },
+  "keywords": [
+    "diner",
+    "recette",
+    "de",
+    "cuisine",
+    "repas",
+    "entre",
+    "amis",
+    "invitation",
+    "à",
+    "manger",
+    "organiser",
+    "reception",
+    "inviter",
+    "vos",
+    "amis",
+    "ingrédient",
+    "intolérance",
+    "alimentaire",
+    "préférence",
+    "alimentaire"
+  ],
+  "author": "NicoEsiea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoesiea/dinner/issues"
+  },
+  "homepage": "https://github.com/nicoesiea/dinner",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

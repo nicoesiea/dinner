@@ -1,0 +1,8 @@
+$ cat .gitignore
+*.[oa]
+*~
+# ignorer tous les fichiers dans le répertoire node_modules
+src/lib
+src/css/concat.css
+node_modules/
+
