@@ -7,6 +7,8 @@ MyDinner est une application web pour organiser vos invitations.
 - Mémoriser vos recettes et apportez leur votre touche personnelle
 - Gardez à l'esprit les préférences et intolérences de chaque personne 
 - Proposer à chaque invitation une nouvelle recette pour éblouir vos amis
+- 
+Demo : http://copocorp.free.fr/dinner
 
 UTILISATEUR
 ======
